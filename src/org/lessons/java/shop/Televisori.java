@@ -17,6 +17,6 @@ public class Televisori extends Prodotto {
     public String toString() {
         return super.toString() + "\n" +
                 "Dimensioni: " + dimensions + " pollici" + "\n" +
-                "Smart: " + (smart ? "S" : "N");
+                (smart ? "Smart Tv" : "");
     }
 }

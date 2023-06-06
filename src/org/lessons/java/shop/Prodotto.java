@@ -64,6 +64,7 @@ public class Prodotto {
         return code + "-" + name;
     }
 
+
     @Override
     public String toString() {
         return "Codice: " + code + "\n" +

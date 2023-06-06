@@ -17,6 +17,6 @@ public class Cuffie extends Prodotto {
     public String toString() {
         return super.toString() + "\n" +
                 "Colore: " + color + "\n" +
-                "Wireless: " + (wireless ? "S" : "N");
+                (wireless ? "Wireless" : "Cablato");
     }
 }
